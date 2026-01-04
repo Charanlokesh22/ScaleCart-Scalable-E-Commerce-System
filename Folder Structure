@@ -1,0 +1,29 @@
+scalecart-backend/
+│
+├── app/
+│   ├── main.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   └── rate_limiter.py
+│   │
+│   ├── db/
+│   │   ├── mongo.py
+│   │   └── redis.py
+│   │
+│   ├── models/
+│   │   ├── product.py
+│   │   └── order.py
+│   │
+│   ├── routes/
+│   │   ├── product_routes.py
+│   │   ├── cart_routes.py
+│   │   └── order_routes.py
+│   │
+│   └── services/
+│       ├── product_service.py
+│       ├── cart_service.py
+│       └── order_service.py
+│
+├── requirements.txt
+└── README.md
